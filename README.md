@@ -11,7 +11,7 @@ I was inspired by http://stackoverflow.com/questions/5469828/how-to-create-a-cal
 ## Installation
   * clone the repo
   * sudo cp usr/local/bin/monitor-hotplug.sh /usr/local/bin/
-  * sudo cp etc/udev/rules.d/99-monitor-hotplug.rules  /etc/udev/rules.d/
+  * sudo cp etc/udev/rules.d/95-monitor-hotplug.rules  /etc/udev/rules.d/
   * sudo service udev restart
 
 ## Debuging
